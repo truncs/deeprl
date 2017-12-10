@@ -1,6 +1,8 @@
 # Dagger
 
-Dataset Aggregation (DAGGER) is a type of imitation learning algorithm that 
+Dataset Aggregation (DAGGER) is a type of imitation learning algorithm that improves the policy by running it on the task
+and getting new samples with labels from experts, appends it to the existing training dataset and learns a new policy based
+on this data. This process repeats until the desired performance is achieved.
 
 
 ## Requirements
