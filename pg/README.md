@@ -55,5 +55,30 @@ optional arguments:
   NOTE: The default network size is 2 hidden layers each with a hidden dimension of 64 and the number of layers can be
   changed by using -l parameter
   
+  ## Results
+  
+  ### Small batches
+  A batch size of 1000 for 100 iterations per episode and with 5 episodes was used for this experiment
+  
+1. sb_no_rtg_dna - Batch of 1000 with no reward to go and advantage normalization
+2. sb_rtg_dna - Batch of 1000 with reward to go but no advantage normalization
+3. sb_rtg_na - Batch of 1000 with reward to go and advantage normalization
+    
+  ![alt text](images/sb_pg.png "Small batches")
+
+ ### Large batches
+  A batch size of 5000 for 100 iterations per episode and with 5 episodes was used for this experiment
+  
+1. lb_no_rtg_dna - Batch of 5000 with no reward to go and advantage normalization
+2. lb_rtg_dna - Batch of 5000 with reward to go but no advantage normalization
+3. lb_rtg_na - Batch of 5000 with reward to go and advantage normalization
+    
+  ![alt text](images/lb_pg.png "Large batches")
+  
+ ### Large & Small batches
+ The above two results on the same graph
+ 
+   ![alt text](images/sb_lb_pg.png "Small batches")
+
   ## Disclaimer
   The code is adopted from the [DeepRL Course - CS294.](http://rll.berkeley.edu/deeprlcourse/)
