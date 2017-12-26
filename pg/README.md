@@ -55,7 +55,7 @@ optional arguments:
   NOTE: The default network size is 2 hidden layers each with a hidden dimension of 64 and the number of layers can be
   changed by using -l parameter
   
-  ## Results
+  ## Results for Cartpole-v0
   
   ### Small batches
   A batch size of 1000 for 100 iterations per episode and with 5 episodes was used for this experiment
