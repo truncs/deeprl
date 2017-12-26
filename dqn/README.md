@@ -15,7 +15,7 @@ python run_dqn_atari.py
 
 ## Results
 <p align="center">
-   ![alt text](images/pong.gif "After 5 million iterations")
+ <img src="https://github.com/truncs/deeprl/blob/master/dqn/images/pong.gif" />
 </p>
 
 ![alt text](images/pong_rewards.png "Pong Rewards")
