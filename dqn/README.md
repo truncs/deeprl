@@ -14,8 +14,10 @@ python run_dqn_atari.py
 ```
 
 ## Results
+<p align="center">
+   ![alt text](images/pong.gif "After 5 million iterations")
+</p>
 
-![alt text](images/pong.gif "After 5 million iterations")
 ![alt text](images/pong_rewards.png "Pong Rewards")
 
  ## Disclaimer
