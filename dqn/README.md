@@ -7,7 +7,7 @@ Estimate the Q-values using a deep neural network and use bellman error for corr
  - epsilon greedy exploration - Instead of taking the action that maximises the q-value all the time we sometimes choose a random action.
 
 ## Usage
-To run dqn on the game Pong
+To run dqn on the game of Pong
 
 ```bash
 python run_dqn_atari.py
@@ -16,6 +16,7 @@ python run_dqn_atari.py
 ## Results
 
 ![alt text](images/pong.gif "After 5 million iterations")
+![alt text](images/pong_rewards.png "Pong Rewards")
 
  ## Disclaimer
 See http://rll.berkeley.edu/deeprlcourse/f17docs/hw3.pdf for instructions
