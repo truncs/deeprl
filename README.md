@@ -5,5 +5,6 @@ A collection of reinforcement algorithms/agents with deep networks as the approx
 
 ## Agents
 
- - Dataset Aggregation (DAGGER)
- - Policy Gradients
+ - [Dataset Aggregation (DAGGER)](dagger)
+ - [Policy Gradients](pg)
+ - [DQN](dqn)
